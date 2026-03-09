@@ -1,10 +1,47 @@
-- 👋 Hi, I’m @kleiton567
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-kleiton567/kleiton567 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+novela-streaming
+│
+├ README.md
+├ package.json
+├ .gitignore
+│
+├ frontend
+│  ├ index.html
+│  ├ catalogo.html
+│  ├ novela.html
+│  ├ episodio.html
+│  ├ login.html
+│  ├ cadastro.html
+│  ├ perfil.html
+│  │
+│  ├ css
+│  │   └ style.css
+│  │
+│  └ js
+│      ├ app.js
+│      ├ busca.js
+│      └ player.js
+│
+├ admin
+│  ├ dashboard.html
+│  ├ adicionar-novela.html
+│  ├ adicionar-episodio.html
+│  ├ gerenciar-usuarios.html
+│  └ admin.js
+│
+├ backend
+│  ├ server.js
+│  │
+│  ├ routes
+│  │   ├ novelas.js
+│  │   └ usuarios.js
+│  │
+│  ├ models
+│  │   ├ Novela.js
+│  │   └ Usuario.js
+│  │
+│  └ controllers
+│      ├ novelaController.js
+│      └ usuarioController.js
+│
+└ database
+   └ novelas.json
